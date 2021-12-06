@@ -33,5 +33,9 @@ jobs:
       - run:
           name: Deploy App
           command: |
-            npm run frontend:deploy          
+            npm run frontend:deploy
+      - run:
+          name: Deploy App
+          command: |
+            npm run backend:deploy                
   
