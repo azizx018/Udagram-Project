@@ -11,7 +11,7 @@ This application is provided to you as an alternative starter project if you do 
 
 The project can run but is missing some information to connect to the database and storage service. These will be setup during the course of the project
 
-### Dependencies
+### Dependencies- THIS WILL BE EDITED
 
 ```
 - Node v14.15.1 (LTS) or more recent. While older versions can work it is advisable to keep node to latest LTS version
