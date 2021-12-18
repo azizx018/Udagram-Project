@@ -12,17 +12,17 @@ import { V0_FEED_MODELS, V0_USER_MODELS } from "./controllers/v0/model.index";
   dotenv.config();
 
   await sequelize.addModels(V0_FEED_MODELS);
-    console.log("1");
+  console.log("1");
   await sequelize.addModels(V0_USER_MODELS);
-    console.log("2");
-    
+  console.log("2");
+
   await sequelize.sync();
-    console.log("3");
+  console.log("3");
 
   console.log("Database Connected");
 
   const app = express();
-  const port = process.env.PORT || 8080;
+  const port = process.env.PORT || 5432;
 
   app.use(bodyParser.json());
 
